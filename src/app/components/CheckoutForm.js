@@ -78,7 +78,7 @@ export default function CheckoutForm() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        amount: 15001,
+        amount: 60000,
         currency: "usd",
         customer: "cus_RVpgbU5IfshNZ3",
         metadata: {

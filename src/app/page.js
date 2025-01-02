@@ -1,6 +1,6 @@
 "use client";
 import { Elements } from "@stripe/react-stripe-js";
-import CheckoutForm from "./CheckoutForm";
+import CheckoutForm from "./components/CheckoutForm";
 import { loadStripe } from "@stripe/stripe-js";
 
 const stripePromise = loadStripe(
